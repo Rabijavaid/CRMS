@@ -1,0 +1,80 @@
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  width: calc(100%-250px);
+  height: 100%;
+  box-sizing:border-box;
+  border: 1px solid #eee;
+  background-image: url("../images/police.jpg");
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: scroll;
+}
+
+/* main css   */
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainContent{
+  margin-top: 50px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 0px;
+  display: flex;
+
+}
+.mainContent h1{
+  display: block;
+    margin: 0px auto;
+    padding: 5px 10px;
+    font-size: 36px;
+    color: #9c9c9c;
+    box-shadow: 0 0 20px 11px white;
+    BACKGROUND: rgba(255, 255, 255, 0.9);
+}
+
+@media screen and (max-width: 1150px) {
+  .mainContent h1{
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 1035px) {
+  .mainContent h1{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .mainContent h1{
+    font-size: 25px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

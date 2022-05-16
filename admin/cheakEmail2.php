@@ -1,0 +1,22 @@
+<?php 
+
+
+$conn = mysqli_connect('localhost','root','','crms');
+
+$email =$_POST['email'];
+
+$cheakMail = '';
+
+$sql ="SELECT * FROM `user_login` WHERE `user_name` = '{$email}'";
+$result = mysqli_query($conn,$sql);
+if(mysqli_num_rows($result)> 0)
+{
+	$cheakMail = 1;
+}else{
+	$cheakMail = 2;
+}
+
+echo $cheakMail;
+
+mysqli_close($conn);
+?>

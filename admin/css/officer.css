@@ -1,0 +1,91 @@
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  margin-left: 20%;
+  transition: margin-left .5s;
+  width: calc(100%-250px);
+  min-height: 100%;
+  box-sizing:border-box;
+  border: 1px solid #eee;
+  background-image: url("../images/contentBackground.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-color:rgba(255,255,255,0.8); /* Black*/
+  background-blend-mode:overlay;
+
+}
+
+/* main css   */
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.content{
+  padding: 10px;
+  text-align: justify;
+}
+
+
+.ContentRecord{
+  width: 100%;
+  height: auto;
+  border: 1px solid #eee;
+  border-bottom: 2px solid #0060cc;
+  display: flex;
+}
+.imageContainer{
+  width: 130px;
+  border-right: 1.5px solid #0060cc;
+}
+.imageContainer img{
+  width: 100px;
+  height: 120px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.ContentHolder{
+  width: calc(100% - 120px);
+  height: auto;
+  padding: 10px;
+  display: flex;
+}
+.ContentHolder div  span{
+  display: block;
+  border: 1px solid royalblue;
+  width: 100%;
+  margin:0px 10px 10px 0px;
+  padding: 5px 10px; 
+    font-family: cursive;
+    font-weight: 400;
+    box-shadow: 1px 2px 2px 0px #0062cc;
+}
+#Content{
+  width: 50%;
+  margin-right: 10px;
+}
+
+
+@media screen and (max-width: 860px) {
+  .ContentRecord{
+    display: block;
+  }
+  .ContentHolder{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 540px){
+  .ContentHolder{
+    display: block;
+    width: 100%;
+  }
+  .ContentHolder #Content{
+    width: 100%;
+  }
+  .ContentHolder div span{
+    width: 100%;
+  }
+}
+

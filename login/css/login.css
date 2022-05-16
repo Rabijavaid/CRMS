@@ -1,0 +1,90 @@
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../../fontawesome/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../../fontawesome/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../../fontawesome/poppins/Poppins-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('../../fontawesome/poppins/Poppins-SemiBold.ttf'); 
+}
+
+
+
+body{
+	background-image:url("../images/bg.jpg");
+	background-size: cover;
+}
+.login{
+	width:400px;
+	height:auto;
+	margin: 0px auto;
+	margin-top:100px;
+	border:1px solid #eee;
+	padding:10px 80px;
+	box-sizing:border-box;
+	background-color:#ffffff;
+	border-radius:10px;
+}
+h1{
+	text-align:center;
+	font-family:Poppins-SemiBold;
+}
+
+
+.inputContainer{
+	display:flex;
+	width:100%;
+	border-bottom:2px solid #eee;
+	padding-bottom:8px;
+	margin-top:40px;
+	transition:0.5s;
+}
+
+.inputContainer input{
+	border:none;
+	width:100%;
+	padding-left:10px;
+	font-family:Poppins-Regular;
+
+}
+
+.inputContainer input:focus{
+	border:none;
+	outline:none;
+}
+
+
+
+
+input[type=submit]{
+	margin:15px auto;
+	margin-top:40px;
+}
+
+span{
+	font-family:Poppins-bold;
+	text-decoration:none;
+	font-size:11px;
+	margin-left:30%;
+}
+
+
+
+
+
+
+
+

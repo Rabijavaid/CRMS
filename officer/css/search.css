@@ -1,0 +1,133 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('fontawesome/poppins/Poppins-Regular.ttf'); 
+}
+
+.searchMain{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	display: flex;
+	background-color: #0062cc;
+	padding: 5px 15px;
+	color: #fff;
+	position: relative;
+}
+
+.searchMain i{
+	font-size: 25px;
+	padding: 5px;
+}
+
+.searchInput{
+	box-sizing: border-box;
+	width: 50%;
+	background-color: rgba(0,0,0,0.3);
+	margin: 0px;
+	margin-left: auto;
+	margin-right: 10px;
+	color: #fff;
+	padding: 2px 10px;
+}
+
+.searchInput input[type=text]{
+	background-color: transparent;
+	border:none;
+	outline: none;
+	padding-left: 10px;
+	color: #fff;
+	line-height: 2;
+	width: calc(100% - 100px);
+	font-style:Poppins-Regular;
+}
+
+.searchInput input[type=text]::placeholder{
+	color: #fff;
+}
+.searchInput i{
+		font-size: 16px;
+	padding: 5px;
+	color: rgba(255,255,255,0.7);
+}
+
+
+#filter{
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	border-bottom: 2px solid #0062cc;
+	padding: 5px 20px;
+	transform: translateX(-20px);
+	display: none;
+	background-color: #fff;
+}
+#filter input{
+	visibility: hidden;
+	display: none;
+}
+#filter label{
+	color: #0062cc;
+	font-weight: 600;
+	border: 2px solid #0062cc;
+	border-radius: 5px;
+	margin-left: 10px;
+	padding: 5px 10px;
+}
+
+#filter input:checked + label{
+    background-color: #0062cc;
+    color: #fff;
+}
+
+
+.mainbuttons{
+	margin:0px;
+	padding: 0px;
+}
+
+.mainbuttons ul {
+  	
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.mainbuttons ul li {
+	list-style: none;
+	display: inline-block;
+	position: relative;
+}
+.mainbuttons ul li ul{
+	visibility: hidden;
+	position: absolute;
+}
+
+.mainbuttons ul li ul li{
+	width: 100%;
+	background-color: #0062cc;
+	z-index: 1;
+}
+.mainbuttons ul li ul li input{
+	background-color: transparent;
+	border: 0px solid black;
+	width: 100%;
+	outline: none;
+	color: #fff;
+	font-family: cursive; 
+	text-align: left;
+	padding: 5px 10px;
+}
+.mainbuttons ul li ul li input:hover{
+	background-color: #007bff;
+}
+.mainbuttons ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+.mainbuttons ul li ul li {
+    clear: both;
+  width: 100%;
+}

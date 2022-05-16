@@ -1,0 +1,31 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.mainBody{
+	display: block;
+	width: 100%;
+	min-height: 100%;
+	margin:0px;
+	padding: 0px;
+}
+
+.main{
+	padding: 10px;
+	width: 100%;
+	background-image: url("../images/police.jpg");
+	background-size: cover;
+	height: 480px;
+}
+.main h1{
+	text-align: center;
+    margin-top: 150px;
+    color: white;
+    text-shadow: 
+    0 0 10px #ffffff,
+    0 0 20px #ffffff,
+    0 0 30px #ffffff,
+    0 0 40px #ffffff,
+    0 0 50px #ffffff;
+}

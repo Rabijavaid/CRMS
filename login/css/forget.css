@@ -1,0 +1,34 @@
+body{
+	padding: 0px;
+	padding-top: 50px;
+	margin:0px;
+	background-color: #0062cc;
+}
+.elelment{
+	position: relative;
+}
+
+.elelment h2{
+	    text-align: center;
+    font-size: xxx-large;
+    font-family: fantasy;
+    color: #fff;
+}
+
+.element-main{
+	background-color: #fff;
+	width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 8px white;
+    position: relative;
+}
+
+.element-main h1{
+	    font-size: xx-large;
+    font-family: fantasy;
+    text-align: center;
+    color: #0062cc;
+}

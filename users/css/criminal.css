@@ -1,0 +1,84 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.mainBody{
+	display: block;
+	width: 100%;
+	min-height: 100%;
+	margin:0px;
+	padding: 0px;
+}
+
+.main{
+	padding: 10px;
+	width: 100%;
+	background-image: url("../images/police.jpg");
+	background-size: cover;
+	height: 480px;
+	overflow: auto;
+}
+
+.ContentRecord{
+
+	height: auto;
+	border: 1px solid #eee;
+	border-bottom: 2px solid #fff;
+	display: flex;
+	margin: 10px auto;
+}
+.imageContainer{
+	width: 130px;
+	border-right: 1.5px solid #fff;
+}
+.imageContainer img{
+	width: 100px;
+	height: 120px;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+.ContentHolder{
+	width: calc(100% - 120px);
+	height: auto;
+	padding: 10px;
+	display: flex;
+	background-color: rgba(0,0,0,0.7);
+}
+.ContentHolder div  span{
+	display: block;
+	color: #fff;
+	border: 1px solid #fff;
+	width: 100%;
+	margin:0px 10px 10px 0px;
+	padding: 5px 10px; 
+    font-family: cursive;
+    font-weight: 400;
+}
+#Content{
+	width: 50%;
+	margin-right: 10px;
+}
+
+
+@media screen and (max-width: 860px) {
+	.ContentRecord{
+		display: block;
+	}
+	.ContentHolder{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 540px){
+	.ContentHolder{
+		display: block;
+		width: 100%;
+	}
+	.ContentHolder #Content{
+		width: 100%;
+	}
+	.ContentHolder div span{
+		width: 100%;
+	}
+}

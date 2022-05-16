@@ -1,0 +1,40 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+*{
+  box-sizing: border-box;
+}
+
+.mainBody{
+  display: block;
+  width: 100%;
+  min-height: 100%;
+  margin:0px;
+  padding: 0px;
+  height: 100%;
+}
+
+.main{
+  padding: 10px;
+  width: 100%;
+  background-image: url("../images/police.jpg");
+  background-size: cover;
+  height: 100%;
+}
+.recent {
+  width: 500px;
+  margin: 0px auto;
+}
+.recent h3{
+  color:#fff;
+  font-family: monospace;
+  background-color: rgba(0,0,0,0.7);
+    display: inline;
+    padding: 5px;
+    text-shadow: 0 0 20px white;
+}
+.recentComplains{
+      padding-bottom: 10px;
+    border-bottom: 5px dashed #FFB300;
+}
